@@ -19,7 +19,8 @@ export const HeroTitle = styled.h1`
         font-bold
         mb-4
     `}
-
+    width: 45rem;
+    max-width: 80vw;
     margin-top: 40vh;
 `;
 
@@ -29,6 +30,7 @@ export const HeroDescription = styled.p`
         font-medium
         mb-4
     `}
+    background-color: rgba(51, 51, 51, 0.6);
     width: 45rem;
     max-width: 80vw;
     line-height: 1.3;
@@ -44,7 +46,8 @@ export const HeroButton = styled.button`
         mr-2
     `}
 
-    background-color: rgba(51, 51, 51, 0.5);
+    background-color: rgba(51, 51, 51, 0.6);
+    color: white;
 
     &:hover{
         background-color: #e6e6e6;
