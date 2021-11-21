@@ -5,6 +5,7 @@ import logo from './logo.svg';
 import './App.css';
 import Movies from './components/Movies';
 import Hero from './components/Hero';
+import Header from './components/Header';
 
 const URL = "https://api.themoviedb.org/3";
 const API_KEY = "4856fbe893d0ae41582688610ce19cd8";
@@ -74,8 +75,9 @@ function App() {
 
   return (
     <> 
+      <Header/>
       <Hero movie={originals[Math.floor(Math.random() * originals.length)]} />
-      <Movies title="Quckflix Originals" movies={originals} />
+      <Movies title="Netflix Originals" movies={originals} />
       <Movies title="Trending" movies={trending} />
       <Movies title="Now Playing" movies={nowPlaying} />
       <Movies title="Popular" movies={popular} />
