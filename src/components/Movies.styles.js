@@ -12,7 +12,7 @@ export const MoviesTitle = styled.h2`
         font-bold
         uppercase
         mx-8
-    `}
+    `};
 `;
 
 export const MoviesRow = styled.div`
@@ -22,18 +22,18 @@ export const MoviesRow = styled.div`
         mt-4
         p-4
 
-    `}
+    `};
 
     &::-webkit-scrollbar {
         display: none;
-    }
+    };
 `;
 
 export const MoviesPoster = styled.img`
     ${tw`
         m-2
         w-40
-    `}
+    `};
 
     // Scale the movie img when the user hover on it 
     transition: all 0.2s;

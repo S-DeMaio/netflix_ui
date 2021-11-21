@@ -4,6 +4,7 @@ import axios from 'axios';
 import logo from './logo.svg';
 import './App.css';
 import Movies from './components/Movies';
+import Hero from './components/Hero';
 
 const URL = "https://api.themoviedb.org/3";
 const API_KEY = "4856fbe893d0ae41582688610ce19cd8";
@@ -73,6 +74,7 @@ function App() {
 
   return (
     <> 
+      <Hero movie={originals[Math.floor(Math.random() * originals.length)]} />
       <Movies title="Quckflix Originals" movies={originals} />
       <Movies title="Trending" movies={trending} />
       <Movies title="Now Playing" movies={nowPlaying} />
