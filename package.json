@@ -2,7 +2,7 @@
   "name": "netflix-ui",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://s-demaio.github.io/netflix_ui",
+  "homepage": "http://s-demaio.github.io/netflix_ui",
   "dependencies": {
     "@craco/craco": "^6.4.1",
     "@emotion/core": "^11.0.0",
